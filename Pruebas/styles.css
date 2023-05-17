@@ -1,0 +1,25 @@
+.tarjeta{
+    display:inline-block; /*Permite setear elementos en vertical, uno al ladom del otro*/
+    background-color: black;
+    color:blueviolet;
+}
+figcaption{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.tarjeta:hover {
+    transform: rotate(360deg);
+    transition: 600ms linear all;
+    filter: sepia();
+  }
+
+.rotar-45{
+    transform: rotate(45deg);
+}
+.rotar-120{
+    transform: rotate(120deg);
+}
+.sepia{
+    filter: blur();
+}
